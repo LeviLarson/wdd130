@@ -1,9 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@1,700&display=swap');
+
 div{
     max-width: 1600px;
 }
 
 #content{
-    margin: 0, auto;
+    margin: 0 auto;
 }
 
 nav a{
@@ -12,7 +15,7 @@ nav a{
     text-decoration: none;
 }
 
-#hero-msg h1, #hero-msgh4{
+#hero-msg h1, #hero-msg h4{
     text-align: center;
 }
 
