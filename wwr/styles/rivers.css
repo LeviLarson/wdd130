@@ -1,0 +1,167 @@
+header{
+    background-color: #304C89;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.logo{
+    width: 80px;
+    margin: 5px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color: #EDDEA4;
+    text-decoration: none;
+    padding: 35px;
+    margin: 5px;
+    width: 100%;
+}
+
+nav a:hover{
+    background-color: #EDDEA4;
+    color: black;
+    margin: 5px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #F2F4F3;
+}
+
+main{
+    display: grid;
+}
+
+section{
+    background-color: #F9F7F3; 
+}
+
+.riverbox{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: #F2F4F3;
+    margin: 5px;
+}
+
+.riverbox h1{
+    grid-column: 2/10;
+    margin-left: 30px;
+    margin-right: auto;
+    padding: 5px;
+    background-color: #EDDEA4;
+    border: 3px black solid;
+}
+
+.river{
+    grid-column: 2/5;
+    width: 100%;
+    grid-row: 2;
+    border: 3px black solid;
+    transition: transform .5s;
+}
+
+.river:hover{
+    transform: rotatey(15deg);
+}
+
+.riverbox p{
+    grid-column: 5/9;
+    background-color: #304C89;
+    color: white;
+    padding: 5px;
+    margin: 0;
+}
+
+.text-box{
+    grid-column: 5/9;
+    background-color: #304C89;
+    color: white;
+    padding: 5px;
+    margin: 0;
+    border: 3px black solid;
+}
+
+.riverbox a{
+    text-align: center;
+    background-color: #304C89;
+    color: #F9F7F3;
+    padding: 10px;
+    text-decoration: none;
+    border: 2px black solid;
+    transition: transform .5s;
+}
+
+.riverbox a:hover{
+    background-color: #EDDEA4;
+    color: black;
+    transform: scale(1.1);
+}
+
+.faq{
+    grid-column: 3/4;
+    text-align: center;
+}
+
+.faq img{
+    margin-top: 10px;
+    width: 200px;
+    border: 3px black solid;
+    box-shadow: 5px 5px 10px;
+}
+
+
+.blog{
+    grid-column: 5/6;
+    margin: auto;
+    text-align: center;
+}
+
+.blog img{
+    margin-top: 10px;
+    width: 200px;
+    border: 3px black solid;
+    box-shadow: 5px 5px 10px;
+}
+
+.dates{
+    grid-column: 7/8;
+    margin: auto;
+    text-align: center;
+}
+
+.dates img{
+    margin-top: 10px;
+    width: 200px;
+    border: 3px black solid;
+    box-shadow: 5px 5px 10px;
+}
+
+footer{
+    background-color: #304C89;
+    color: #F9F7F3;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer h3 a:hover{
+    text-decoration: underline;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
