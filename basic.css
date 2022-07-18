@@ -1,0 +1,32 @@
+h1{
+    font-size: 2em;
+}
+
+p.class{
+    margin: 50px 20px;
+}
+p.classone{
+    font-size: 3em;
+    margin: 70px;
+    color: white;
+    background-color: blue;
+    text-align: center;
+}
+.car{
+    color: orange;
+}
+    section{
+    margin: 50px;
+    background-color: rgb(174, 172, 172);
+    border:solid 2px black;
+    color: purple;
+    border-radius: 15px;
+} 
+.clear{
+    clear:both;
+}
+.image{
+    padding:15px;
+    float:right;
+}
+
