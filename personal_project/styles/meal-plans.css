@@ -33,7 +33,7 @@ header a:hover{
     color: #22333B;
 }
 
-  main{
+main{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     justify-items: center;
@@ -83,6 +83,7 @@ header a:hover{
     color: #F2F4F3;
     margin: 20px;
     padding: 10px;
+    display: grid;
 }
 
 .box4{
@@ -93,7 +94,7 @@ header a:hover{
     padding: 10px;
 }
 
-.img-set{
+#img-set{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
